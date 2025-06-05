@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { SearchBar } from './search-bar/search-bar';
 import { Header } from './header/header';
 
+
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, Header, SearchBar],
