@@ -1,13 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { SearchBar } from './search-bar/search-bar';
-import { Header } from './header/header';
-import { ProfilePage } from './profile-page/profile-page';
-import { Card } from './card/card';
+import { OriginLayout } from './origin-layout/origin-layout';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, SearchBar, Card, ProfilePage],
+  imports: [OriginLayout],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
