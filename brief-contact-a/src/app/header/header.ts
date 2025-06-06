@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
+import { SearchBar } from '../search-bar/search-bar';
 
 @Component({
   selector: 'app-header',
-  imports: [],
+  imports: [SearchBar],
   templateUrl: './header.html',
-  styleUrl: './header.css'
+  styleUrl: './header.css',
 })
-export class Header {
-
-}
+export class Header {}
