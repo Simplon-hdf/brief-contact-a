@@ -1,11 +1,15 @@
-<!-- source https://github.com/spacemadev/elevate-free-tailwind-business-template/ -->
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
   <div *ngFor="let member of teamDisplay" class="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-      <img [src]="member.image" [alt]="member.nom" class="w-full rounded-full mb-4" />
-      <h3 class="text-xl font-semibold mb-2">{{ member.nom }}</h3>
-      <p class="text-gray-700">Role: {{ member.role }}</p>
-      <p class="text-gray-700">Email: {{ member.email }}</p>
-      <p class="text-gray-700">Phone: {{ member.phone }}</p>
-    </div>
+    <img
+      [src]="member.image"
+      [alt]="member.nom"
+      class="w-32 h-32 object-cover rounded-full mx-auto mb-4"
+    />
+    <h3 class="text-xl font-semibold mb-2">{{ member.nom }}</h3>
+    <p class="text-gray-700"><strong>Role : </strong> {{ member.role }}</p>
+    <p class="text-gray-700"><strong>Email : </strong> {{ member.email }}</p>
+    <p class="text-gray-700"><strong>Phone : </strong> {{ member.phone }}</p>
   </div>
+</div>
+
   
