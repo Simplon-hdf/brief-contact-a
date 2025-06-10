@@ -2,11 +2,13 @@ import { Component } from '@angular/core';
 import { OriginLayout } from './origin-layout/origin-layout';
 import { Card } from './card/card';
 import { TEAM_MEMBERS } from './data/personne.data';
+import { Footer } from './footer/footer';
+
 
 
 @Component({
   selector: 'app-root',
-  imports: [OriginLayout, Card],
+  imports: [OriginLayout, Card, Footer],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
