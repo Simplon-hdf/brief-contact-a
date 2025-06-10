@@ -3,9 +3,10 @@ import { TEAM_MEMBERS } from '../data/personne.data';
 import { Component } from '@angular/core';
 interface TeamMember {
   nom: string;
-  role: string;
+  job: string;
   email: string;
   phone: string;
+  role : string;
   image: string;
 }
 @Component({
