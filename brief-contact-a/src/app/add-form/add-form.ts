@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { Member, TeamMember } from '../member';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-add-form',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './add-form.html',
   styleUrl: './add-form.css',
 })
@@ -21,16 +22,23 @@ export class AddForm {
     }
   }
 
-  onSubmit() {
+  onSubmit(
+    nom: string,
+    phone: string,
+    email: string,
+    job: string,
+    role: string
+  ) {
     const newMember: TeamMember = {
-      nom:
-      job:
-      email:
-      phone:
-      role:
-      image:
+      nom: nom,
+      job: job,
+      email: email,
+      phone: phone,
+      role: role,
+      image: this.imagePreview,
     };
-  }
 
-  this.member.addMember(newMember);
+    this.member.addMember(newMember);
+    console.log('Membre ajouté !', newMember);
+  }
 }
