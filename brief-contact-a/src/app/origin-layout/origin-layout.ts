@@ -7,7 +7,7 @@ import { AddForm } from '../add-form/add-form';
 
 @Component  ({
   selector: 'app-origin-layout',
-  imports: [Header, RouterOutlet, Card, ProfilePage],
+  imports: [Header, RouterOutlet, Card, ProfilePage, AddForm],
   templateUrl: './origin-layout.html',
   styleUrl: './origin-layout.css',
 })
