@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Header } from '../header/header';
 import { Card } from '../card/card';
 import { Router, RouterOutlet } from '@angular/router';
+import { Card } from '../card/card';
 
 @Component({
   selector: 'app-origin-layout',

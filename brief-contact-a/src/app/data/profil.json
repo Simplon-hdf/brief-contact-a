@@ -1,0 +1,162 @@
+[
+  {
+    "nom": "Calvi Max",
+    "job": "Lead Developer",
+    "email": "calvimax@example.com",
+    "phone": "+33 1 23 45 67 01",
+    "role": "Client",
+    "image": "https://images.pexels.com/photos/6333604/pexels-photo-6333604.jpeg"
+  },
+  {
+    "nom": "Mr. Chauve Geek",
+    "job": "SysAdmin",
+    "email": "chauve.geek@example.com",
+    "phone": "+33 1 23 45 67 02",
+    "role": "Fournisseur",
+    "image": "https://images.pexels.com/photos/6262970/pexels-photo-6262970.jpeg"
+  },
+  {
+    "nom": "Joe Kahl (Kahl = calvaire)",
+    "job": "Backend Dev",
+    "email": "joekahl@example.com",
+    "phone": "+33 1 23 45 67 03",
+    "role": "Client",
+    "image": "https://images.pexels.com/photos/19343334/pexels-photo-19343334.jpeg"
+  },
+  {
+    "nom": "Bald Eagle",
+    "job": "Product Owner",
+    "email": "baldeagle@example.com",
+    "phone": "+33 1 23 45 67 04",
+    "role": "Fournisseur",
+    "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+  },
+  {
+    "nom": "Chauve-qui-peut",
+    "job": "QA Engineer",
+    "email": "chauvequip@example.com",
+    "phone": "+33 1 23 45 67 05",
+    "role": "Client",
+    "image": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg"
+  },
+  {
+    "nom": "Mr. Lisse Code",
+    "job": "Frontend Dev",
+    "email": "lisse.code@example.com",
+    "phone": "+33 1 23 45 67 06",
+    "role": "Fournisseur",
+    "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
+  },
+  {
+    "nom": "Pattern Baldness",
+    "job": "UX Designer",
+    "email": "pattern.b@example.com",
+    "phone": "+33 1 23 45 67 07",
+    "role": "Client",
+    "image": "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg"
+  },
+  {
+    "nom": "Calvitie One",
+    "job": "Marketing Manager",
+    "email": "calvitie.one@example.com",
+    "phone": "+33 1 23 45 67 08",
+    "role": "Client",
+    "image": "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg"
+  },
+  {
+    "nom": "Follicule Libre",
+    "job": "Graphic Designer",
+    "email": "follicule.libre@example.com",
+    "phone": "+33 1 23 45 67 09",
+    "role": "Fournisseur",
+    "image": "https://images.pexels.com/photos/356042/pexels-photo-356042.jpeg"
+  },
+  {
+    "nom": "Mr. Smooth Dome",
+    "job": "DevOps Engineer",
+    "email": "smooth.dome@example.com",
+    "phone": "+33 1 23 45 67 10",
+    "role": "Fournisseur",
+    "image": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+  },
+  {
+    "nom": "Shiny Head Sam",
+    "job": "Data Analyst",
+    "email": "sam@shinyhead.example.com",
+    "phone": "+33 1 23 45 67 11",
+    "role": "Client",
+    "image": "https://images.pexels.com/photos/1181539/pexels-photo-1181539.jpeg"
+  },
+  {
+    "nom": "Chauve & Fier",
+    "job": "Project Manager",
+    "email": "chauve.fier@example.com",
+    "phone": "+33 1 23 45 67 12",
+    "role": "Fournisseur",
+    "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+  },
+  {
+    "nom": "Hair Today",
+    "job": "Content Writer",
+    "email": "hair.today@example.com",
+    "phone": "+33 1 23 45 67 13",
+    "role": "Client",
+    "image": "https://images.pexels.com/photos/3184305/pexels-photo-3184305.jpeg"
+  },
+  {
+    "nom": "Bald & The Beautiful",
+    "job": "QA Tester",
+    "email": "bald.beautiful@example.com",
+    "phone": "+33 1 23 45 67 14",
+    "role": "Fournisseur",
+    "image": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg"
+  },
+  {
+    "nom": "Chauve Sans Frontière",
+    "job": "Scrum Master",
+    "email": "chauve.sans@example.com",
+    "phone": "+33 1 23 45 67 15",
+    "role": "Client",
+    "image": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg"
+  },
+  {
+    "nom": "The Bald Side",
+    "job": "Security Analyst",
+    "email": "bald.side@example.com",
+    "phone": "+33 1 23 45 67 16",
+    "role": "Client",
+    "image": "https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg"
+  },
+  {
+    "nom": "Alopécie Alpha",
+    "job": "Infrastructure Engineer",
+    "email": "alopecie.alpha@example.com",
+    "phone": "+33 1 23 45 67 17",
+    "role": "Fournisseur",
+    "image": "https://images.pexels.com/photos/2379006/pexels-photo-2379006.jpeg"
+  },
+  {
+    "nom": "Baldly Go!",
+    "job": "Mobile Developer",
+    "email": "baldly.go@example.com",
+    "phone": "+33 1 23 45 67 18",
+    "role": "Fournisseur",
+    "image": "https://images.pexels.com/photos/6262970/pexels-photo-6262970.jpeg"
+  },
+  {
+    "nom": "Chauve-de-Code",
+    "job": "Fullstack Dev",
+    "email": "chauve.decode@example.com",
+    "phone": "+33 1 23 45 67 19",
+    "role": "Client",
+    "image": "https://images.pexels.com/photos/19343334/pexels-photo-19343334.jpeg"
+  },
+  {
+    "nom": "Glossy Dome",
+    "job": "UX Researcher",
+    "email": "glossy.dome@example.com",
+    "phone": "+33 1 23 45 67 20",
+    "role": "Fournisseur",
+    "image": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg"
+  }
+]
