@@ -1,6 +1,9 @@
 import { Routes } from '@angular/router';
-import { OriginLayout } from './origin-layout/origin-layout';
+import { Card } from './card/card';
+import { AddForm } from './add-form/add-form';
 
 export const routes: Routes = [
-    {path: '', component: OriginLayout}
+  { path: '', component: Card },
+  { path: 'add', component: AddForm },
+  { path: '**', redirectTo: '' },
 ];
