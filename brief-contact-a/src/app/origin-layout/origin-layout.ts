@@ -3,6 +3,7 @@ import { Header } from '../header/header';
 import { Card } from '../card/card';
 import { Router, RouterOutlet } from '@angular/router';
 import { ProfilePage } from '../profile-page/profile-page';
+import { AddForm } from '../add-form/add-form';
 
 @Component  ({
   selector: 'app-origin-layout',
