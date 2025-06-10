@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { OriginLayout } from './origin-layout/origin-layout';
-import { Card } from './card/card';
-import TEAM_MEMBERS from './data/profil.json';
+import TEAM_MEMBERS from './data/profil.json';  
 import { Footer } from './footer/footer';
+import { Header } from "./header/header";
 
 @Component({
   selector: 'app-root',
-  imports: [OriginLayout, Footer],
+  imports: [OriginLayout, Footer, Header],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
