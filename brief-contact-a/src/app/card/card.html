@@ -1,3 +1,15 @@
+<div class="mb-4 flex justify-center"> <label for="gender" class="block text-gray-700 font-medium mb-2 sr-only"
+  >Niveau de Calvitie</label
+> <select
+  id="gender"
+  name="gender"
+  class="border border-gray-400 p-2 rounded-lg focus:outline-none focus:border-blue-400 max-w-xs dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+  required
+> <option value="">Niveau de Calvitie</option>
+  <option value="male">Dôme Brilliant</option>
+  <option value="female">Alopécie Radieuse</option>
+</select>
+</div>
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
   <div *ngFor="let member of teamDisplay" class="bg-white rounded-lg shadow-md p-6 my-6 text-center">
     <img
