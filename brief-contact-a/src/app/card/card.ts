@@ -21,7 +21,7 @@ export class Card {
   teamDisplay: TeamMember[] = [];
 
   ngOnInit() {
-    this.teamDisplay = this.getRandomMembers(4);
+    this.teamDisplay = this.getRandomMembers(20);
   }
 
   getRandomMembers(count: number) {
