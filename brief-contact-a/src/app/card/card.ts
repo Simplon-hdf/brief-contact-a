@@ -1,12 +1,12 @@
 import { CommonModule } from '@angular/common';
-import { TEAM_MEMBERS } from '../data/personne.data';
+import TEAM_MEMBERS from '../data/profil.json';
 import { Component } from '@angular/core';
 interface TeamMember {
   nom: string;
   job: string;
   email: string;
   phone: string;
-  role : string;
+  role: string;
   image: string;
 }
 @Component({
@@ -14,18 +14,18 @@ interface TeamMember {
   standalone: true,
   imports: [CommonModule],
   templateUrl: './card.html',
-  styleUrls: ['./card.css']
+  styleUrls: ['./card.css'],
 })
 export class Card {
   team = TEAM_MEMBERS;
- teamDisplay: TeamMember[] = [];
+  teamDisplay: TeamMember[] = [];
 
- ngOnInit() {
-   this.teamDisplay = this.getRandomMembers(4);
- }
+  ngOnInit() {
+    this.teamDisplay = this.getRandomMembers(20);
+  }
 
- getRandomMembers(count: number) {
-   const shuffled = [...this.team].sort(() => 0.5 - Math.random());
-   return shuffled.slice(0, count);
- }
+  getRandomMembers(count: number) {
+    const shuffled = [...this.team].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, count);
+  }
 }
