@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import TEAM_MEMBERS from '../data/profil.json';
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 interface TeamMember {
   nom: string;
   job: string;
@@ -13,7 +14,7 @@ interface TeamMember {
 @Component({
   selector: 'app-card',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './card.html',
   styleUrls: ['./card.css'],
 })
