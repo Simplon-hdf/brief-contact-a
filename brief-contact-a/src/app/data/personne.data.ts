@@ -5,6 +5,7 @@ export const TEAM_MEMBERS = [
     email: 'calvimax@example.com',
     phone: '+33 1 23 45 67 01',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/6333604/pexels-photo-6333604.jpeg',
   },
   {
@@ -13,6 +14,7 @@ export const TEAM_MEMBERS = [
     email: 'chauve.geek@example.com',
     phone: '+33 1 23 45 67 02',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/6262970/pexels-photo-6262970.jpeg',
   },
   {
@@ -21,6 +23,7 @@ export const TEAM_MEMBERS = [
     email: 'joekahl@example.com',
     phone: '+33 1 23 45 67 03',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image:
       'https://images.pexels.com/photos/19343334/pexels-photo-19343334.jpeg',
   },
@@ -30,6 +33,7 @@ export const TEAM_MEMBERS = [
     email: 'baldeagle@example.com',
     phone: '+33 1 23 45 67 04',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg',
   },
   {
@@ -38,6 +42,7 @@ export const TEAM_MEMBERS = [
     email: 'chauvequip@example.com',
     phone: '+33 1 23 45 67 05',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg',
   },
   {
@@ -46,6 +51,7 @@ export const TEAM_MEMBERS = [
     email: 'lisse.code@example.com',
     phone: '+33 1 23 45 67 06',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg',
   },
   {
@@ -54,6 +60,7 @@ export const TEAM_MEMBERS = [
     email: 'pattern.b@example.com',
     phone: '+33 1 23 45 67 07',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg',
   },
   {
@@ -62,6 +69,7 @@ export const TEAM_MEMBERS = [
     email: 'calvitie.one@example.com',
     phone: '+33 1 23 45 67 08',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg',
   },
   {
@@ -70,6 +78,7 @@ export const TEAM_MEMBERS = [
     email: 'follicule.libre@example.com',
     phone: '+33 1 23 45 67 09',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/356042/pexels-photo-356042.jpeg',
   },
   {
@@ -78,6 +87,7 @@ export const TEAM_MEMBERS = [
     email: 'smooth.dome@example.com',
     phone: '+33 1 23 45 67 10',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg',
   },
   {
@@ -86,6 +96,7 @@ export const TEAM_MEMBERS = [
     email: 'sam@shinyhead.example.com',
     phone: '+33 1 23 45 67 11',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/1181539/pexels-photo-1181539.jpeg',
   },
   {
@@ -94,6 +105,7 @@ export const TEAM_MEMBERS = [
     email: 'chauve.fier@example.com',
     phone: '+33 1 23 45 67 12',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg',
   },
   {
@@ -102,6 +114,7 @@ export const TEAM_MEMBERS = [
     email: 'hair.today@example.com',
     phone: '+33 1 23 45 67 13',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/3184305/pexels-photo-3184305.jpeg',
   },
   {
@@ -110,6 +123,7 @@ export const TEAM_MEMBERS = [
     email: 'bald.beautiful@example.com',
     phone: '+33 1 23 45 67 14',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg',
   },
   {
@@ -118,6 +132,7 @@ export const TEAM_MEMBERS = [
     email: 'chauve.sans@example.com',
     phone: '+33 1 23 45 67 15',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg',
   },
   {
@@ -126,6 +141,7 @@ export const TEAM_MEMBERS = [
     email: 'bald.side@example.com',
     phone: '+33 1 23 45 67 16',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg',
   },
   {
@@ -134,6 +150,7 @@ export const TEAM_MEMBERS = [
     email: 'alopecie.alpha@example.com',
     phone: '+33 1 23 45 67 17',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/2379006/pexels-photo-2379006.jpeg',
   },
   {
@@ -142,6 +159,7 @@ export const TEAM_MEMBERS = [
     email: 'baldly.go@example.com',
     phone: '+33 1 23 45 67 18',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/6262970/pexels-photo-6262970.jpeg',
   },
   {
@@ -150,6 +168,7 @@ export const TEAM_MEMBERS = [
     email: 'chauve.decode@example.com',
     phone: '+33 1 23 45 67 19',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image:
       'https://images.pexels.com/photos/19343334/pexels-photo-19343334.jpeg',
   },
@@ -159,6 +178,7 @@ export const TEAM_MEMBERS = [
     email: 'glossy.dome@example.com',
     phone: '+33 1 23 45 67 20',
     role: 'customers',
+    about: '💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."',
     image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg',
   },
 ];

@@ -8,6 +8,7 @@ interface TeamMember {
   phone: string;
   role: string;
   image: string;
+  
 }
 @Component({
   selector: 'app-card',
