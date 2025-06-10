@@ -8,6 +8,7 @@ interface TeamMember {
   phone: string;
   role: string;
   image: string;
+  
 }
 @Component({
   selector: 'app-card',
@@ -19,6 +20,7 @@ interface TeamMember {
 export class Card {
   team = TEAM_MEMBERS;
   teamDisplay: TeamMember[] = [];
+
 
   ngOnInit() {
     this.teamDisplay = this.getRandomMembers(20);

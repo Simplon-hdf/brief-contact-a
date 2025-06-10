@@ -1,11 +1,32 @@
-import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import TEAM_MEMBERS from '../data/profil.json';
+import { Component, OnInit } from '@angular/core';
+
+interface TeamMember {
+  nom?: string;
+  job?: string;
+  email?: string;
+  phone?: string;
+  role?: string;
+  image?: string;
+  about?: string;
+}
 
 @Component({
   selector: 'app-profile-page',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './profile-page.html',
-  styleUrl: './profile-page.css'
+  styleUrls: ['./profile-page.css'],
 })
-export class ProfilePage {
+export class ProfilePage implements OnInit {
+  member: TeamMember | null = null;
 
+  constructor() {
+    this.member = TEAM_MEMBERS[0];
+  }
+
+  ngOnInit(): void {
+    this.member = TEAM_MEMBERS[0];
+  }
 }
