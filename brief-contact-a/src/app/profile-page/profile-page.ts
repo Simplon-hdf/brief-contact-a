@@ -27,8 +27,7 @@ export class ProfilePage implements OnInit {
   profileNotFound: boolean = false;
 
   constructor(private route: ActivatedRoute) {
-    // Le constructeur est l'endroit pour les injections de dépendances.
-    // Laissez-le simple.
+    
   }
 
   ngOnInit(): void {
