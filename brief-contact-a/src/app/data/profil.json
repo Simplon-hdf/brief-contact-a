@@ -68,7 +68,7 @@
     "email": "calvitie.one@example.com",
     "phone": "+33 1 23 45 67 08",
     "role": "Client",
-    "about": "💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire.",
+    "about": "💻 Après des années à faire du back-end, j’ai eu envie de lumière. Je suis passé au front, et mes cheveux ont pris ça comme un signal : ils ont fui la scène. Résultat ? Un dev chauve mais radieux.",
     "image": "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg"
   },
   {
@@ -77,7 +77,7 @@
     "email": "follicule.libre@example.com",
     "phone": "+33 1 23 45 67 09",
     "role": "Fournisseur",
-    "about": "💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire.",
+    "about": "🧠 Il paraît que les chauves réfléchissent plus vite. Je ne sais pas si c’est vrai, mais mon code transpile à la vitesse de la lumière. Et si l’élégance se mesurait en lignes de code propres, je serais mannequin.",
     "image": "https://images.pexels.com/photos/356042/pexels-photo-356042.jpeg"
   },
   {
@@ -86,7 +86,7 @@
     "email": "smooth.dome@example.com",
     "phone": "+33 1 23 45 67 10",
     "role": "Fournisseur",
-    "about": "💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire.",
+    "about": "💼 🧩 Mon parcours est un puzzle de technologies : PHP, SQL, React, Angular... Et au milieu de tout ça, une calvitie assumée qui m’a appris à garder la tête haute, même sans rien dessus.",
     "image": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
   },
   {
@@ -95,7 +95,7 @@
     "email": "sam@shinyhead.example.com",
     "phone": "+33 1 23 45 67 11",
     "role": "Client",
-    "about": "💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire.",
+    "about": "📚 J’ai découvert ma passion pour le développement à 28 ans. À 29, j’ai découvert la calvitie. Hasard ? Non. Car c’est à ce moment-là que j’ai arrêté de me coiffer pour mieux structurer mes composants.",
     "image": "https://images.pexels.com/photos/1181539/pexels-photo-1181539.jpeg"
   },
   {
@@ -104,7 +104,7 @@
     "email": "chauve.fier@example.com",
     "phone": "+33 1 23 45 67 12",
     "role": "Fournisseur",
-    "about": "💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire.",
+    "about": "🌐 Freelance depuis 3 ans, j’aide les entreprises à concevoir des interfaces modernes et accessibles. Les cheveux sont optionnels dans ce métier. Le style, lui, ne l’est pas.",
     "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
   },
   {
@@ -113,7 +113,7 @@
     "email": "hair.today@example.com",
     "phone": "+33 1 23 45 67 13",
     "role": "Client",
-    "about": "💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire.",
+    "about": "🔍 Je suis passé par toutes les étapes : support technique, intégration, développement, architecture... À chaque promotion, un cheveu en moins. Aujourd’hui, je suis au sommet. Littéralement.",
     "image": "https://images.pexels.com/photos/3184305/pexels-photo-3184305.jpeg"
   },
   {
@@ -122,7 +122,7 @@
     "email": "bald.beautiful@example.com",
     "phone": "+33 1 23 45 67 14",
     "role": "Fournisseur",
-    "about": "💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire.",
+    "about": "💡 Le jour où j’ai compris les observables dans Angular, j’ai aussi compris que mes cheveux ne repousseraient pas. Depuis, j’observe surtout la performance de mes apps — et le soleil sur mon front.",
     "image": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg"
   },
   {
@@ -131,7 +131,7 @@
     "email": "chauve.sans@example.com",
     "phone": "+33 1 23 45 67 15",
     "role": "Client",
-    "about": "💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire.",
+    "about": "Je suis peut-être glabre à l’extérieur, mais plein d’idées à l’intérieur. Mon parcours, c’est celui d’un passionné qui a troqué le gel coiffant contre des composants bien agencés et une passion bien ancrée.",
     "image": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg"
   },
   {
@@ -140,7 +140,7 @@
     "email": "bald.side@example.com",
     "phone": "+33 1 23 45 67 16",
     "role": "Client",
-    "about": "💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire.",
+    "about": "🛠️ Développeur autodidacte, j’ai appris à coder entre deux sessions de massage crânien (non nécessaires, mais agréables). Mon parcours est aussi propre que mon crâne après un build réussi.",
     "image": "https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg"
   },
   {
@@ -149,7 +149,7 @@
     "email": "alopecie.alpha@example.com",
     "phone": "+33 1 23 45 67 17",
     "role": "Fournisseur",
-    "about": "💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire.",
+    "about": "Certains disent que la calvitie est une fatalité. Moi, je dis que c’est un gain de temps et de RAM. Moins de soucis capillaires, plus de focus sur le TypeScript.",
     "image": "https://images.pexels.com/photos/2379006/pexels-photo-2379006.jpeg"
   },
   {
@@ -158,7 +158,7 @@
     "email": "baldly.go@example.com",
     "phone": "+33 1 23 45 67 18",
     "role": "Fournisseur",
-    "about": "💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire.",
+    "about": "Reconverti du monde bancaire vers le développement web, j’ai échangé les comptes courants contre les comptes Git. Depuis, je suis chauve, mais stable. Comme une bonne version LTS.",
     "image": "https://images.pexels.com/photos/6262970/pexels-photo-6262970.jpeg"
   },
   {
@@ -167,7 +167,7 @@
     "email": "chauve.decode@example.com",
     "phone": "+33 1 23 45 67 19",
     "role": "Client",
-    "about": "💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire.",
+    "about": "J’ai longtemps été enchaîné aux deadlines, au stress… et à une ligne de cheveux incertaine. Aujourd’hui, j’ai libéré tout ça : je code avec sérénité, et je laisse mon crâne respirer.",
     "image": "https://images.pexels.com/photos/19343334/pexels-photo-19343334.jpeg"
   },
   {
@@ -177,6 +177,6 @@
     "phone": "+33 1 23 45 67 20",
     "role": "Fournisseur",
     "image": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
-    "about": "💼 Développeur full-stack depuis bientôt 10 ans, j’ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd’hui, je compense leur absence par un code plus élégant que ma ligne capillaire."
+    "about": "Mon parcours est loin d’être linéaire, un peu comme mes anciens cheveux. Mais chaque détour m’a rapproché de ce que j’aime : créer, apprendre, transmettre… et bien sûr briller (du front)."
   }
 ]
