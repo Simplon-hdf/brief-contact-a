@@ -1,3 +1,13 @@
+<div class="mb-4 flex justify-center">
+  <label for="roleFilter" class="block text-gray-700 font-medium mb-2 sr-only">Niveau de Calvitie</label>
+  <select
+    id="roleFilter"
+    name="roleFilter"
+    [(ngModel)]="selectedRole"   (change)="onFilterChange()"   class="border border-gray-400 p-2 rounded-lg focus:outline-none focus:border-blue-400 max-w-xs dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+    required
+  >
+    <option value="all">Tous les niveaux</option> <option value="client">Dôme Brillant</option>    <option value="fournisseur">Alopécie Radieuse</option> </select>
+</div>
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
   <div *ngFor="let member of teamDisplay" class="bg-white rounded-lg shadow-md p-6 my-6 text-center">
     <img
@@ -10,7 +20,6 @@
     <p class="text-gray-700"><strong>Email : </strong> {{ member.email }}</p>
     <p class="text-gray-700"><strong>Téléphone : </strong> {{ member.phone }}</p>
     <p class="text-gray-700"><strong>Rôle : </strong> {{ member.role }}</p>
+    <a routerLink="/profile/{{ member.nom }}" class="mt-4 bg-indigo-800 text-white px-4 py-2 rounded-lg hover:bg-blue-900 transition-colors duration-300 inline-block">Profile</a>
   </div>
 </div>
-
-  
