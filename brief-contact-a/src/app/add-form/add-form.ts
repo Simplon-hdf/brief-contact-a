@@ -14,14 +14,20 @@ export class AddForm {
   imagePreview: string =
     'https://lh3.googleusercontent.com/a-/AFdZucpC_6WFBIfaAbPHBwGM9z8SxyM1oV4wB4Ngwp_UyQ=s96-c';
 
-  onFileSelected(event: any) {
-    const file = event.target.files[0];
-
-    if (file) {
-      this.imagePreview = URL.createObjectURL(file);
+    onFileSelected(event: any) {
+      const file = event.target.files[0];
+    
+      if (file) {
+        const reader = new FileReader();
+    
+        reader.onload = () => {
+          this.imagePreview = reader.result as string;
+        };
+    
+        reader.readAsDataURL(file);
+      }
     }
-  }
-
+  
   onSubmit(
     nom: string,
     phone: string,
