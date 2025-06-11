@@ -13,7 +13,7 @@ import { Member, TeamMember } from '../member';
 })
 export class Card implements OnInit {
   teamDisplay: TeamMember[] = [];
-  selectedRole: string = 'all';  // valeur initiale sur "all"
+  selectedRole: string = 'all'; 
   allMembers: TeamMember[] = [];
 
   constructor(private member: Member) {}
