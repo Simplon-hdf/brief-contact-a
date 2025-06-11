@@ -16,7 +16,6 @@ export interface TeamMember {
   providedIn: 'root',
 })
 export class Member {
-  constructor() {}
   private team: TeamMember[] = [...TEAM_MEMBERS];
 
   getAllMembers(): TeamMember[] {
