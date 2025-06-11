@@ -13,7 +13,7 @@ import { Member, TeamMember } from '../member';
 })
 export class Card implements OnInit {
   teamDisplay: TeamMember[] = [];
-  selectedRole: string = '';
+  selectedRole: string = 'all'; 
   allMembers: TeamMember[] = [];
 
   constructor(private member: Member) {}
@@ -29,12 +29,12 @@ export class Card implements OnInit {
   }
 
   onFilterChange() {
-    if (this.selectedRole) {
-      this.teamDisplay = this.allMembers.filter(
-        (m) => m.role === this.selectedRole
-      );
-    } else {
+    if (this.selectedRole === 'all') {
       this.teamDisplay = this.getRandomMembers(20, this.allMembers);
+    } else {
+      this.teamDisplay = this.allMembers.filter(
+        (m) => m.role.toLowerCase() === this.selectedRole.toLowerCase()
+      );
     }
   }
 }
