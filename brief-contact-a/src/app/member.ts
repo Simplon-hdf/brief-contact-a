@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { TEAM_MEMBERS } from './data/personne.data';
+import TEAM_MEMBERS from './data/profil.json';
 
 export interface TeamMember {
   id?: number;
