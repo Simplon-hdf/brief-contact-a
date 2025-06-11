@@ -28,6 +28,7 @@
       <div
         *ngFor="let member of searchResults"
         class="p-3 border-b hover:bg-gray-50 cursor-pointer"
+        (click)="goToProfile(member.nom)"
       >
         <div class="flex items-center space-x-3">
           <img
