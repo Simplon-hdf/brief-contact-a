@@ -1,26 +1,40 @@
-import { CommonModule } from '@angular/common';
-import { Member, TeamMember } from '../member';
 import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+import { Member, TeamMember } from '../member';
 
 @Component({
   selector: 'app-card',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule, RouterModule],
   templateUrl: './card.html',
   styleUrls: ['./card.css'],
 })
 export class Card implements OnInit {
   teamDisplay: TeamMember[] = [];
+  selectedRole: string = '';
+  allMembers: TeamMember[] = [];
 
   constructor(private member: Member) {}
 
   ngOnInit() {
-    const allMembers = this.member.getAllMembers();
-    this.teamDisplay = this.getRandomMembers(20, allMembers);
+    this.allMembers = this.member.getAllMembers();
+    this.teamDisplay = this.getRandomMembers(20, this.allMembers);
   }
 
   getRandomMembers(count: number, team: TeamMember[]) {
     const shuffled = [...team].sort(() => 0.5 - Math.random());
     return shuffled.slice(0, count);
+  }
+
+  onFilterChange() {
+    if (this.selectedRole) {
+      this.teamDisplay = this.allMembers.filter(
+        (m) => m.role === this.selectedRole
+      );
+    } else {
+      this.teamDisplay = this.getRandomMembers(20, this.allMembers);
+    }
   }
 }
