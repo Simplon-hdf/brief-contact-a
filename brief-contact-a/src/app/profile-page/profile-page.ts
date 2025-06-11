@@ -1,8 +1,8 @@
-// src/app/profile-page/profile-page.ts
 import { CommonModule } from '@angular/common';
 import TEAM_MEMBERS from '../data/profil.json';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, ParamMap } from '@angular/router'; // <-- AJOUTEZ ActivatedRoute ET ParamMap ici !
+import { ActivatedRoute, ParamMap } from '@angular/router';
+import { Member } from '../member';
 
 interface TeamMember {
   nom?: string;
@@ -17,8 +17,6 @@ interface TeamMember {
 
 @Component({
   selector: 'app-profile-page',
-  // Si ce composant est déclaré dans un NgModule, RETIREZ 'standalone: true'
-  // Si CommonModule est déjà fourni par BrowserModule via AppModule, RETIREZ 'imports: [CommonModule]'
   templateUrl: './profile-page.html',
   styleUrls: ['./profile-page.css'],
 })
@@ -26,7 +24,7 @@ export class ProfilePage implements OnInit {
   member: TeamMember | null = null;
   profileNotFound: boolean = false;
 
-  constructor(private route: ActivatedRoute) {
+  constructor(private route: ActivatedRoute, private memberService: Member) {
     
   }
 
@@ -37,7 +35,7 @@ export class ProfilePage implements OnInit {
       const memberName = params.get('nom');
 
       if (memberName) {
-        this.member = TEAM_MEMBERS.find(
+        this.member = this.memberService.getAllMembers().find(
           (m) => m.nom?.toLowerCase() === memberName.toLowerCase()
         ) || null;
 
