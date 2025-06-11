@@ -23,6 +23,8 @@ export class SearchBar implements OnInit {
 
   goToProfile(memberName: string) {
     this.router.navigate(['/profile', memberName]);
+    this.searchTerm = '';
+    this.searchResults = [];
   }
 
   onSearch(event: any) {
