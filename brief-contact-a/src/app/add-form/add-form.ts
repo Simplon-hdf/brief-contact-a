@@ -29,7 +29,8 @@ export class AddForm {
     job: string,
     role: string,
     about: string
-  ) {
+  ) { 
+    
     const newMember: TeamMember = {
       nom: nom,
       job: job,

@@ -29,12 +29,12 @@ export class Card implements OnInit {
   }
 
   onFilterChange() {
-    if (this.selectedRole === 'all') {
-      this.teamDisplay = this.getRandomMembers(20, this.allMembers);
-    } else {
-      this.teamDisplay = this.allMembers.filter(
-        (m) => m.role.toLowerCase() === this.selectedRole.toLowerCase()
-      );
-    }
+  if (this.selectedRole === 'all') {
+    this.teamDisplay = this.getRandomMembers(20, this.allMembers);
+  } else {
+    this.teamDisplay = this.allMembers.filter(
+      (m) => m.role?.toLowerCase() === this.selectedRole.toLowerCase()
+    );
   }
+}
 }
