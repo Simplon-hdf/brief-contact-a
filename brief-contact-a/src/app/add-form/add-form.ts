@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { Member, TeamMember } from '../member';
 import { CommonModule } from '@angular/common';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-add-form',
@@ -9,7 +11,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './add-form.css',
 })
 export class AddForm {
-  constructor(private member: Member) {}
+  constructor(private member: Member, private router: Router) {}
 
   imagePreview: string =
     'https://lh3.googleusercontent.com/a-/AFdZucpC_6WFBIfaAbPHBwGM9z8SxyM1oV4wB4Ngwp_UyQ=s96-c';
@@ -49,5 +51,6 @@ export class AddForm {
 
     this.member.addMember(newMember);
     console.log('Membre ajouté !', newMember);
+    this.router.navigate(['/']);
   }
 }
