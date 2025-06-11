@@ -9,6 +9,7 @@ export interface TeamMember {
   phone: string;
   role: string;
   image: string;
+  about: string;
 }
 
 @Injectable({
