@@ -99,6 +99,7 @@
       <textarea
         id="message"
         name="message"
+        #about
         class="border border-gray-400 p-2 w-full rounded-lg focus:outline-none focus:border-blue-400"
         rows="5"
       ></textarea>
@@ -107,7 +108,7 @@
       <button
         type="button"
         class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
-        (click)="onSubmit(nom.value, phone.value, email.value, job.value, role.value)"
+        (click)="onSubmit(nom.value, phone.value, email.value, job.value, role.value, about.value)"
       >
         Submit
       </button>

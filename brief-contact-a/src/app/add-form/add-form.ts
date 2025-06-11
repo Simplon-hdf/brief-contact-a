@@ -27,7 +27,8 @@ export class AddForm {
     phone: string,
     email: string,
     job: string,
-    role: string
+    role: string,
+    about: string
   ) {
     const newMember: TeamMember = {
       nom: nom,
@@ -35,6 +36,7 @@ export class AddForm {
       email: email,
       phone: phone,
       role: role,
+      about: about,
       image: this.imagePreview,
     };
 
