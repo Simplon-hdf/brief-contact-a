@@ -1,6 +1,9 @@
 <div class="flex flex-1 items-center justify-center p-6">
   <div class="w-full max-w-lg">
-    <form class="mt-5 sm:flex sm:items-center">
+    <form
+      class="mt-5 sm:flex sm:items-center"
+      (submit)="$event.preventDefault()"
+    >
       <input
         id="q"
         name="q"
@@ -8,7 +11,8 @@
         placeholder="Keyword"
         type="search"
         autofocus=""
-        value=""
+        (input)="onSearch($event)"
+        [value]="searchTerm"
       />
       <button
         type="submit"
@@ -17,5 +21,26 @@
         Search
       </button>
     </form>
+    <div
+      *ngIf="searchResults.length > 0"
+      class="absolute z-10 mt-2 w-full bg-white border rounded-lg shadow-lg"
+    >
+      <div
+        *ngFor="let member of searchResults"
+        class="p-3 border-b hover:bg-gray-50 cursor-pointer"
+      >
+        <div class="flex items-center space-x-3">
+          <img
+            [src]="member.image"
+            [alt]="member.nom"
+            class="w-10 h-10 rounded-full"
+          />
+          <div>
+            <p class="font-medium">{{ member.nom }}</p>
+            <p class="text-sm text-gray-500">{{ member.job }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
