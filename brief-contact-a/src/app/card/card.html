@@ -1,11 +1,13 @@
 <div class="mb-4 flex flex-col items-center">
-  <label for="roleFilter" class="block text-white font-medium mb-2">Niveau de Calvitie</label>
+  <label for="roleFilter" class="block text-white font-medium mb-2"
+    >Niveau de Calvitie</label
+  >
   <select
     id="roleFilter"
     name="roleFilter"
     [(ngModel)]="selectedRole"
     (change)="onFilterChange()"
-    class="border bg-[#EFAF8F] border-[#EFAF8F] m-4 p-4 rounded-lg focus:outline-none focus:border-[#EFAF8F] max-w-xs dark:border-[#EFAF8F] dark:text-white"
+    class="text-gray-700 bg-[#EFAF8F] border-[#EFAF8F] m-4 p-4 rounded-lg focus:outline-none focus:border-[#EFAF8F] max-w-xs dark:border-[#EFAF8F] dark:text-white"
     required
   >
     <option value="all">Tous les niveaux</option>
@@ -13,8 +15,10 @@
     <option value="Alopécie Radieuse">Alopécie Radieuse</option>
   </select>
 </div>
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8  px-4 sm:px-6 lg:px-12">
-  <div 
+<div
+  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-12"
+>
+  <div
     *ngFor="let member of teamDisplay"
     class="rounded-lg shadow-2xl p-6 my-6 text-center border-1 transition-transform hover:shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:scale-[1.02] duration-300"
     [ngClass]="{
@@ -42,5 +46,3 @@
     </a>
   </div>
 </div>
-
-
