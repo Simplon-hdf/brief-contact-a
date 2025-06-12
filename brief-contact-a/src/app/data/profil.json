@@ -95,7 +95,7 @@
     "job": "DevOps Engineer",
     "email": "smooth.dome@example.com",
     "phone": "+33 1 23 45 67 10",
-    "role": "Alopécie Radieuse",
+    "role": "Dôme Brillant",
     "about": "💼 🧩 Mon parcours est un puzzle de technologies : PHP, SQL, React, Angular... Et au milieu de tout ça, une calvitie assumée qui m'a appris à garder la tête haute, même sans rien dessus.",
     "image": "/img/chauve-16.jpeg"
   },
@@ -115,7 +115,7 @@
     "job": "Project Manager",
     "email": "chauve.fier@example.com",
     "phone": "+33 1 23 45 67 12",
-    "role": "Alopécie Radieuse",
+    "role": "Dôme Brillant",
     "about": "🌐 Freelance depuis 3 ans, j'aide les entreprises à concevoir des interfaces modernes et accessibles. Les cheveux sont optionnels dans ce métier. Le style, lui, ne l'est pas.",
     "image": "/img/chauve-12.jpeg"
   },
@@ -125,7 +125,7 @@
     "job": "Content Writer",
     "email": "hair.today@example.com",
     "phone": "+33 1 23 45 67 13",
-    "role": "Dôme Brillant",
+    "role": "Alopécie Radieuse",
     "about": "🔍 Je suis passé par toutes les étapes : support technique, intégration, développement, architecture... À chaque promotion, un cheveu en moins. Aujourd'hui, je suis au sommet. Littéralement.",
     "image": "/img/fournisseur-1.jpeg"
   },
@@ -145,7 +145,7 @@
     "job": "Scrum Master",
     "email": "chauve.sans@example.com",
     "phone": "+33 1 23 45 67 15",
-    "role": "Dôme Brillant",
+    "role": "Alopécie Radieuse",
     "about": "Je suis peut-être glabre à l'extérieur, mais plein d'idées à l'intérieur. Mon parcours, c'est celui d'un passionné qui a troqué le gel coiffant contre des composants bien agencés et une passion bien ancrée.",
     "image": "/img/fournisseur-3.jpeg"
   },
@@ -165,7 +165,7 @@
     "job": "Infrastructure Engineer",
     "email": "alopecie.alpha@example.com",
     "phone": "+33 1 23 45 67 17",
-    "role": "Dôme Brillant",
+    "role": "Alopécie Radieuse",
     "about": "Certains disent que la calvitie est une fatalité. Moi, je dis que c'est un gain de temps et de RAM. Moins de soucis capillaires, plus de focus sur le TypeScript.",
     "image": "/img/fournisseur-5.jpeg"
   },
@@ -185,7 +185,7 @@
     "job": "Fullstack Dev",
     "email": "chauve.decode@example.com",
     "phone": "+33 1 23 45 67 19",
-    "role": "Dôme Brillant",
+    "role": "Alopécie Radieuse",
     "about": "J'ai longtemps été enchaîné aux deadlines, au stress… et à une ligne de cheveux incertaine. Aujourd'hui, j'ai libéré tout ça : je code avec sérénité, et je laisse mon crâne respirer.",
     "image": "/img/fournisseur-7.jpeg"
   },
