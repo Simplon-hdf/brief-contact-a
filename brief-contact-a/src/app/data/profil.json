@@ -191,12 +191,12 @@
   },
   {
     "id": 20,
-    "nom": "Glossy Dome",
-    "job": "UX Researcher",
-    "email": "glossy.dome@example.com",
+    "nom": "Loïc",
+    "job": "Live Actor Mr.Propre",
+    "email": "jadorelesFlammands@gmail.com",
     "phone": "+33 1 23 45 67 20",
     "role": "Alopécie Radieuse",
-    "image": "/img/loic.jpg",
-    "about": "Mon parcours est loin d'être linéaire, un peu comme mes anciens cheveux. Mais chaque détour m'a rapproché de ce que j'aime : créer, apprendre, transmettre… et bien sûr briller (du front)."
+    "image": "/img/loic.jpeg",
+    "about": "Mon parcours est loin d'être linéaire, un peu comme mes anciens cheveux.Ce que j'aime : créer, apprendre, transmettre… et bien sûr briller comme mon crane."
   }
 ]
