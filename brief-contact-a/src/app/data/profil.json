@@ -121,7 +121,7 @@
   },
   {
     "id": 13,
-    "nom": "Hair Today",
+    "nom": "Follicule Libre",
     "job": "Content Writer",
     "email": "hair.today@example.com",
     "phone": "+33 1 23 45 67 13",
@@ -131,7 +131,7 @@
   },
   {
     "id": 14,
-    "nom": "Bald & The Beautiful",
+    "nom": "Tête en l'Air",
     "job": "QA Tester",
     "email": "bald.beautiful@example.com",
     "phone": "+33 1 23 45 67 14",
@@ -141,7 +141,7 @@
   },
   {
     "id": 15,
-    "nom": "Chauve Sans Frontière",
+    "nom": "Mèche Alors",
     "job": "Scrum Master",
     "email": "chauve.sans@example.com",
     "phone": "+33 1 23 45 67 15",
@@ -151,7 +151,7 @@
   },
   {
     "id": 16,
-    "nom": "The Bald Side",
+    "nom": "Bulbe & Bulles",
     "job": "Security Analyst",
     "email": "bald.side@example.com",
     "phone": "+33 1 23 45 67 16",
@@ -161,7 +161,7 @@
   },
   {
     "id": 17,
-    "nom": "Alopécie Alpha",
+    "nom": "Énergie Chauve",
     "job": "Infrastructure Engineer",
     "email": "alopecie.alpha@example.com",
     "phone": "+33 1 23 45 67 17",
@@ -171,7 +171,7 @@
   },
   {
     "id": 18,
-    "nom": "Baldly Go!",
+    "nom": "Ampoule & Boule",
     "job": "Mobile Developer",
     "email": "baldly.go@example.com",
     "phone": "+33 1 23 45 67 18",
@@ -181,7 +181,7 @@
   },
   {
     "id": 19,
-    "nom": "Chauve-de-Code",
+    "nom": "Home Sweet Dome",
     "job": "Fullstack Dev",
     "email": "chauve.decode@example.com",
     "phone": "+33 1 23 45 67 19",
