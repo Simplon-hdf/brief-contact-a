@@ -7,7 +7,7 @@ export const TEAM_MEMBERS = [
     "phone": "+33 1 23 45 67 01",
     "role": "Alopécie Radieuse",
     "about": "💼 Développeur full-stack depuis bientôt 10 ans, j'ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd'hui, je compense leur absence par un code plus élégant que ma ligne capillaire.",
-    "image": "https://images.pexels.com/photos/6333604/pexels-photo-6333604.jpeg"
+    "image": "public://images.pexels.com/photos/6333604/pexels-photo-6333604.jpeg"
   },
   {
     "id": 2,

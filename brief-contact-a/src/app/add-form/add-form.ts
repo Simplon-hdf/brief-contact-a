@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { Member, TeamMember } from '../member';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
-
 @Component({
   selector: 'app-add-form',
   imports: [CommonModule],
