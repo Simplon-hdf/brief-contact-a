@@ -122,71 +122,71 @@
   {
     "id": 13,
     "nom": "Follicule Libre",
-    "job": "Content Writer",
-    "email": "hair.today@example.com",
+    "job": "Salon de Coiffure Spécialisé",
+    "email": "contact@follicule-libre.fr",
     "phone": "+33 1 23 45 67 13",
     "role": "Alopécie Radieuse",
-    "about": "🔍 Je suis passé par toutes les étapes : support technique, intégration, développement, architecture... À chaque promotion, un cheveu en moins. Aujourd'hui, je suis au sommet. Littéralement.",
+    "about": "Le salon qui fait briller les crânes ! Spécialistes du rasage premium et des soins pour cuir chevelu dégarni. Parce qu'avoir moins de cheveux, c'est avoir plus de style.",
     "image": "/img/fournisseur-1.jpeg"
   },
   {
     "id": 14,
     "nom": "Tête en l'Air",
-    "job": "QA Tester",
-    "email": "bald.beautiful@example.com",
+    "job": "Chapellerie Spécialisée",
+    "email": "contact@tete-en-lair.fr",
     "phone": "+33 1 23 45 67 14",
     "role": "Alopécie Radieuse",
-    "about": "💡 Le jour où j'ai compris les observables dans Angular, j'ai aussi compris que mes cheveux ne repousseraient pas. Depuis, j'observe surtout la performance de mes apps — et le soleil sur mon front.",
+    "about": "Chapellerie haut de gamme pour crânes dégagés !",
     "image": "/img/fournisseur-2.png"
   },
   {
     "id": 15,
     "nom": "Mèche Alors",
-    "job": "Scrum Master",
-    "email": "chauve.sans@example.com",
+    "job": "Magasin de Perruques",
+    "email": "contact@meche-alors.fr",
     "phone": "+33 1 23 45 67 15",
     "role": "Alopécie Radieuse",
-    "about": "Je suis peut-être glabre à l'extérieur, mais plein d'idées à l'intérieur. Mon parcours, c'est celui d'un passionné qui a troqué le gel coiffant contre des composants bien agencés et une passion bien ancrée.",
+    "about": "Vous avez perdu vos cheveux ? Nous, on les a retrouvés !",
     "image": "/img/fournisseur-3.jpeg"
   },
   {
     "id": 16,
     "nom": "Bulbe & Bulles",
-    "job": "Security Analyst",
-    "email": "bald.side@example.com",
+    "job": "Laboratoire de Recherche Capillaire",
+    "email": "contact@bulbe-et-bulles.fr",
     "phone": "+33 1 23 45 67 16",
     "role": "Alopécie Radieuse",
-    "about": "🛠️ Développeur autodidacte, j'ai appris à coder entre deux sessions de massage crânien (non nécessaires, mais agréables). Mon parcours est aussi propre que mon crâne après un build réussi.",
+    "about": "On cherche la formule pour faire repousser les cheveux... Pour l'instant, allez voir Mèche Alors !",
     "image": "/img/fournisseur-4.jpeg"
   },
   {
     "id": 17,
     "nom": "Énergie Chauve",
-    "job": "Infrastructure Engineer",
-    "email": "alopecie.alpha@example.com",
+    "job": "Installation Panneaux Solaires Crâniens",
+    "email": "contact@energie-chauve.fr",
     "phone": "+33 1 23 45 67 17",
     "role": "Alopécie Radieuse",
-    "about": "Certains disent que la calvitie est une fatalité. Moi, je dis que c'est un gain de temps et de RAM. Moins de soucis capillaires, plus de focus sur le TypeScript.",
+    "about": "Transformez votre calvaire en solaire ! Panneaux crâniens haute performance.",
     "image": "/img/fournisseur-5.jpeg"
   },
   {
     "id": 18,
     "nom": "Ampoule & Boule",
-    "job": "Mobile Developer",
-    "email": "baldly.go@example.com",
+    "job": "Entreprise d'Électricité",
+    "email": "contact@ampoule-et-boule.fr",
     "phone": "+33 1 23 45 67 18",
     "role": "Alopécie Radieuse",
-    "about": "Reconverti du monde bancaire vers le développement web, j'ai échangé les comptes courants contre les comptes Git. Depuis, je suis chauve, mais stable. Comme une bonne version LTS.",
+    "about": "Nos ampoules durent plus longtemps que vos cheveux ! Éclairage professionnel par des experts qui savent ce qu'est la brillance.",
     "image": "/img/fournisseur-6.jpeg"
   },
   {
     "id": 19,
     "nom": "Home Sweet Dome",
-    "job": "Fullstack Dev",
-    "email": "chauve.decode@example.com",
+    "job": "Domotique Spécialisée",
+    "email": "contact@home-sweet-dome.fr",
     "phone": "+33 1 23 45 67 19",
     "role": "Alopécie Radieuse",
-    "about": "J'ai longtemps été enchaîné aux deadlines, au stress… et à une ligne de cheveux incertaine. Aujourd'hui, j'ai libéré tout ça : je code avec sérénité, et je laisse mon crâne respirer.",
+    "about": "Solutions domotiques pour dômes sensibles : éclairage anti-reflets, climatisation crânienne et stores automatiques. Votre maison comprend votre calvitie !",
     "image": "/img/fournisseur-7.jpeg"
   },
   {
@@ -197,7 +197,6 @@
     "phone": "+33 1 23 45 67 20",
     "role": "Alopécie Radieuse",
     "image": "/img/loic.jpeg",
-    "about":"Belge de naissance, chauve par excellence!\n Brillant comme sa tête et ses produits nettoyants. "
-}
+    "about": "Belge de naissance, chauve par excellence!\n Brillant comme sa tête et ses produits nettoyants. "
+  }
 ]
-
