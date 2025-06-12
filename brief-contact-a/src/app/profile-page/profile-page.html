@@ -12,10 +12,10 @@
           alt="Profile Picture"
           class="rounded-full w-48 h-48 mx-auto mb-4 border-4 border-[#EFAF8F] transition-transform duration-300 hover:scale-105"
         />
-        <h1 class="text-2xl font-semibold text-black mb-2">
+        <h1 class="text-2xl font-semibold text-gray-700 mb-2">
           {{ member?.nom }}
         </h1>
-        <p class="text-black">{{ member?.job }}</p>
+        <p class="text-gray-700">{{ member?.job }}</p>
       </div>
       <div class="md:w-2/3 md:pl-8">
         <h2 class="text-xl font-semibold text-gray-700 mb-4">
@@ -65,12 +65,10 @@
               fill="currentColor"
             >
               <path
-                fill-rule="evenodd"
-                d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-                clip-rule="evenodd"
+                d="M6 4V3a2 2 0 012-2h4a2 2 0 012 2v1h2a2 2 0 012 2v2H2V6a2 2 0 012-2h2zm2-1h4v1H8V3zM2 9h16v6a2 2 0 01-2 2H4a2 2 0 01-2-2V9zm5 2a1 1 0 100 2h6a1 1 0 100-2H7z"
               />
             </svg>
-            San Francisco, CA
+            {{ member?.role }}
           </li>
         </ul>
       </div>
