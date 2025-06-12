@@ -1,0 +1,41 @@
+<div class="flex flex-1 items-center justify-center p-6">
+  <div class="w-full max-w-lg">
+    <form
+      class="mt-5 sm:flex sm:items-center"
+      (submit)="$event.preventDefault()"
+    >
+      <input
+        id="q"
+        name="q"
+        class="inline w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-3 leading-5 placeholder-gray-500 focus:border-indigo-500 focus:placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm"
+        placeholder="Quel chauve te faut-il aujourd'hui ?"
+        type="search"
+        autofocus=""
+        (input)="onSearch($event)"
+        [value]="searchTerm"
+      />
+    </form>
+    <div
+      *ngIf="searchResults.length > 0"
+      class="absolute z-10 mt-2 w-full bg-white border rounded-lg shadow-lg"
+    >
+      <div
+        *ngFor="let member of searchResults"
+        class="p-3 border-b hover:bg-gray-50 cursor-pointer"
+        (click)="goToProfile(member.nom)"
+      >
+        <div class="flex items-center space-x-3">
+          <img
+            [src]="member.image"
+            [alt]="member.nom"
+            class="w-10 h-10 rounded-full"
+          />
+          <div>
+            <p class="font-medium">{{ member.nom }}</p>
+            <p class="text-sm text-gray-500">{{ member.job }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

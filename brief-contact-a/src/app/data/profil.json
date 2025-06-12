@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "nom": "Calvi Max",
+    "job": "Coach Sportif",
+    "email": "calvi.max@example.com",
+    "phone": "+33 1 23 45 67 01",
+    "role": "Dôme Brillant",
+    "about": "Calvi est un coach sportif passionné de fitness et musculation qui guide ses clients vers leurs objectifs avec détermination. Son secret ? Il a perdu ses cheveux mais gagné en aérodynamisme pour ses sprints !",
+    "image": "/img/chauve-3.jpeg"
+  },
+  {
+    "id": 2,
+    "nom": "Vincent Lisse",
+    "job": "Directeur Commercial",
+    "email": "vincent.lisse@example.com",
+    "phone": "+33 1 23 45 67 02",
+    "role": "Dôme Brillant",
+    "about": "Vincent est passionné par les relations humaines et le développement d'entreprise, créant des partenariats durables. Son sourire et son crâne brillent de mille feux lors des réunions !",
+    "image": "/img/chauve-1.jpeg"
+  },
+  {
+    "id": 3,
+    "nom": "Marco Pelé",
+    "job": "Chef Cuisinier",
+    "email": "marco.pele@example.com",
+    "phone": "+33 1 23 45 67 03",
+    "role": "Dôme Brillant",
+    "about": "Marco est un chef passionné qui excelle dans l'art culinaire depuis plus de 15 ans. Sa spécialité ? L'œuf au plat - une question d'expertise personnelle !",
+    "image": "/img/chauve-2.jpeg"
+  },
+  {
+    "id": 4,
+    "nom": "Patrick Poli",
+    "job": "Consultant en Stratégie",
+    "email": "patrick.poli@example.com",
+    "phone": "+33 1 23 45 67 04",
+    "role": "Dôme Brillant",
+    "about": "Patrick excelle dans l'art de restructurer les entreprises. Comme pour sa coiffure, il va toujours à l'essentiel !",
+    "image": "/img/chauve-4.jpeg"
+  },
+  {
+    "id": 5,
+    "nom": "Bernard Brillantine",
+    "job": "Galeriste",
+    "email": "beber.brillant@example.com",
+    "phone": "+33 1 23 45 67 05",
+    "role": "Dôme Brillant",
+    "about": "Bernard dirige sa galerie d'art contemporain avec passion. Expert en sculptures lisses et surfaces polies, il apprécie particulièrement les œuvres aux courbes parfaites !",
+    "image": "/img/chauve-6.jpeg"
+  },
+  {
+    "id": 6,
+    "nom": "Maître Miroir",
+    "job": "Chef de Restaurant",
+    "email": "maitre.miroir@example.com",
+    "phone": "+33 1 23 45 67 06",
+    "role": "Dôme Brillant",
+    "about": "Maître Miroir dirige son établissement avec passion. Quand on lui parle, on a l'impression d'avoir une lampe de chevet à côté de soi !",
+    "image": "/img/chauve-7.jpeg"
+  },
+  {
+    "id": 7,
+    "nom": "Pascal Vitie",
+    "job": "Directeur Médical",
+    "email": "pascal.vitie@example.com",
+    "phone": "+33 1 23 45 67 07",
+    "role": "Dôme Brillant",
+    "about": "Pascal a une approche très transparente de la médecine !",
+    "image": "/img/chauve-8.jpeg"
+  },
+  {
+    "id": 8,
+    "nom": "Justin Crâne",
+    "job": "Directeur d'Hôtel",
+    "email": "justin.crane@example.com",
+    "phone": "+33 1 23 45 67 09",
+    "role": "Dôme Brillant",
+    "about": "Justin offre un service haut de gamme dans un cadre qui reflète parfaitement sa personnalité !",
+    "image": "/img/chauve-5.jpeg"
+  },
+  {
+    "id": 9,
+    "nom": "Amélie Saie",
+    "job": "Infirmière",
+    "email": "amelie.saie@example.com",
+    "phone": "+33 1 23 45 67 10",
+    "role": "Dôme Brillant",
+    "about": "Amélie apporte toujours de la clarté dans les situations les plus complexes !",
+    "image": "/img/chauve-11.jpeg"
+  },
+  {
+    "id": 10,
+    "nom": "André Nudé",
+    "job": "Chef de Chantier",
+    "email": "andre.nude@example.com",
+    "phone": "+33 1 23 45 67 08",
+    "role": "Dôme Brillant",
+    "about": "André supervise ses chantiers avec une précision d'architecte. Son casque de sécurité n'a jamais eu autant d'espace de stockage !",
+    "image": "/img/chauve-16.jpeg"
+  },
+  {
+    "id": 11,
+    "nom": "Isabeton Due",
+    "job": "Curatrice d'Art",
+    "email": "isabeton.due@example.com",
+    "phone": "+33 1 23 45 67 11",
+    "role": "Dôme Brillant",
+    "about": "Isabeton a adopté un style épuré dans tous les domaines de sa vie !",
+    "image": "/img/chauve-13.jpeg"
+  },
+  {
+    "id": 12,
+    "nom": "Honorée Fléchie",
+    "job": "Directrice Commerciale",
+    "email": "honoree.flechie@example.com",
+    "phone": "+33 1 23 45 67 12",
+    "role": "Dôme Brillant",
+    "about": "Honorée mène ses réflexions stratégiques avec un éclat particulier !",
+    "image": "/img/chauve-10.jpeg"
+  },
+  {
+    "id": 13,
+    "nom": "Follicule Libre",
+    "job": "Salon de Coiffure Spécialisé",
+    "email": "contact@follicule-libre.fr",
+    "phone": "+33 1 23 45 67 13",
+    "role": "Alopécie Radieuse",
+    "about": "Le salon qui fait briller les crânes ! Spécialistes du rasage premium et des soins pour cuir chevelu dégarni. Parce qu'avoir moins de cheveux, c'est avoir plus de style.",
+    "image": "/img/fournisseur-1.jpeg"
+  },
+  {
+    "id": 14,
+    "nom": "Tête en l'Air",
+    "job": "Chapellerie Spécialisée",
+    "email": "contact@tete-en-lair.fr",
+    "phone": "+33 1 23 45 67 14",
+    "role": "Alopécie Radieuse",
+    "about": "Chapellerie haut de gamme pour crânes dégagés !",
+    "image": "/img/fournisseur-2.png"
+  },
+  {
+    "id": 15,
+    "nom": "Mèche Alors",
+    "job": "Magasin de Perruques",
+    "email": "contact@meche-alors.fr",
+    "phone": "+33 1 23 45 67 15",
+    "role": "Alopécie Radieuse",
+    "about": "Vous avez perdu vos cheveux ? Nous, on les a retrouvés !",
+    "image": "/img/fournisseur-3.jpeg"
+  },
+  {
+    "id": 16,
+    "nom": "Bulbe & Bulles",
+    "job": "Laboratoire de Recherche Capillaire",
+    "email": "contact@bulbe-et-bulles.fr",
+    "phone": "+33 1 23 45 67 16",
+    "role": "Alopécie Radieuse",
+    "about": "On cherche la formule pour faire repousser les cheveux... Pour l'instant, allez voir Mèche Alors !",
+    "image": "/img/fournisseur-4.jpeg"
+  },
+  {
+    "id": 17,
+    "nom": "Énergie Chauve",
+    "job": "Installation Panneaux Solaires Crâniens",
+    "email": "contact@energie-chauve.fr",
+    "phone": "+33 1 23 45 67 17",
+    "role": "Alopécie Radieuse",
+    "about": "Transformez votre calvaire en solaire ! Panneaux crâniens haute performance.",
+    "image": "/img/fournisseur-5.jpeg"
+  },
+  {
+    "id": 18,
+    "nom": "Ampoule & Boule",
+    "job": "Entreprise d'Électricité",
+    "email": "contact@ampoule-et-boule.fr",
+    "phone": "+33 1 23 45 67 18",
+    "role": "Alopécie Radieuse",
+    "about": "Nos ampoules durent plus longtemps que vos cheveux ! Éclairage professionnel par des experts qui savent ce qu'est la brillance.",
+    "image": "/img/fournisseur-6.jpeg"
+  },
+  {
+    "id": 19,
+    "nom": "Home Sweet Dome",
+    "job": "Domotique Spécialisée",
+    "email": "contact@home-sweet-dome.fr",
+    "phone": "+33 1 23 45 67 19",
+    "role": "Alopécie Radieuse",
+    "about": "Solutions domotiques pour dômes sensibles : éclairage anti-reflets, climatisation crânienne et stores automatiques. Votre maison comprend votre calvitie !",
+    "image": "/img/fournisseur-7.jpeg"
+  },
+  {
+    "id": 20,
+    "nom": "Loïc",
+    "job": "Vendeur de produits nettoyants",
+    "email": "jadorelesFlammands@gmail.com",
+    "phone": "+33 1 23 45 67 20",
+    "role": "Alopécie Radieuse",
+    "image": "/img/loic.jpeg",
+    "about": "Belge de naissance, chauve par excellence!\n Brillant comme sa tête et ses produits nettoyants. "
+  }
+]
