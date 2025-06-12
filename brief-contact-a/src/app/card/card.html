@@ -1,0 +1,48 @@
+<div class="mb-4 flex flex-col items-center">
+  <label for="roleFilter" class="block text-white font-medium mb-2"
+    >Niveau de Calvitie</label
+  >
+  <select
+    id="roleFilter"
+    name="roleFilter"
+    [(ngModel)]="selectedRole"
+    (change)="onFilterChange()"
+    class="text-gray-700 bg-[#EFAF8F] border-[#EFAF8F] m-4 p-4 rounded-lg focus:outline-none focus:border-[#EFAF8F] max-w-xs dark:border-[#EFAF8F] dark:text-white"
+    required
+  >
+    <option value="all">Tous les niveaux</option>
+    <option value="Dôme Brillant">Dôme Brillant</option>
+    <option value="Alopécie Radieuse">Alopécie Radieuse</option>
+  </select>
+</div>
+<div
+  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-12"
+>
+  <div
+    *ngFor="let member of teamDisplay"
+    class="rounded-lg shadow-2xl p-6 my-6 text-center border-1 transition-transform hover:shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:scale-[1.02] duration-300"
+    [ngClass]="{
+      'bg-[#8f8f8f] text-black border-0 border-[#ffaa5a]': member.role === 'Dôme Brillant',
+      'bg-[#8f8f8f] text-[#111111] border-0 border-[#ff2828]': member.role === 'Alopécie Radieuse',
+      'bg-[#8f8f8f] text-gray-950 border-0 border-[#ffffff]': member.role !== 'Dôme Brillant' && member.role !== 'Alopécie Radieuse'
+    }"
+  >
+    <img
+      [src]="member?.image"
+      alt="Photo de {{ member?.nom }}"
+      (error)="member.image = '/img/default.jpeg'"
+      class="rounded-full w-48 h-48 object-cover mx-auto mb-4 border-4 border-[#EFAF8F] transition-transform duration-300 hover:scale-105"
+    />
+    <h3 class="text-xl font-semibold mb-2">{{ member.nom }}</h3>
+    <p><strong>Métier : </strong> {{ member.job }}</p>
+    <p><strong>Email : </strong> {{ member.email }}</p>
+    <p><strong>Téléphone : </strong> {{ member.phone }}</p>
+    <p><strong>Rôle : </strong> {{ member.role }}</p>
+    <a
+      [routerLink]="['/profile', member.nom]"
+      class="mt-4 bg-[#000000] text-white px-4 py-2 rounded-lg hover:bg-blue-200 transition-colors duration-300 inline-block"
+    >
+      Profile
+    </a>
+  </div>
+</div>

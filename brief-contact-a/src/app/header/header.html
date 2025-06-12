@@ -1,0 +1,67 @@
+<header class="w-full relative">
+  <nav
+    class="border-gray-200 bg-gradient-to-r from-[#EFAF8F] to-[#FAD7BB] py-2.5"
+  >
+    <div
+      class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between px-4"
+    >
+      <a routerLink="/" class="flex items-center"
+        ><img src="img/oeuf.png" class="absolute left-1/5 top-1/30  -translate-y-1/2 translate-y-[10px] w-25 h-auto z-10" />
+        </a
+      >
+      <div class="flex items-center lg:order-2">
+        <a
+          class="rounded-lg border-2 border-gray-600 px-4 py-2 text-sm leading-[24px] font-medium text-gray-600 hover:text-gray-800 sm:mr-2 lg:px-5 lg:py-2.5 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+          routerLink="/add"
+          >Add Supplier</a
+        >
+      </div>
+      <div
+        class="hidden w-full items-center justify-between lg:order-1 lg:flex lg:w-auto"
+        id="mobile-menu-2"
+      >
+        <ul
+          class="mt-4 flex flex-col font-medium lg:mt-0 lg:flex-row lg:space-x-8"
+        ></ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="relative bg-gradient-to-r from-[#EFAF8F] to-[#FAD7BB]">
+  <div class="absolute inset-x-0 bottom-0">
+    <svg
+      viewBox="0 0 224 12"
+      fill="currentColor"
+      class="-mb-1 w-full text-white"
+      preserveAspectRatio="none"
+    >
+      <path
+        d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z"
+      ></path>
+    </svg>
+  </div>
+  <div
+    class="mx-auto px-4 py-4 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-8"
+  >
+    <div
+      class="relative max-w-2xl sm:mx-auto sm:max-w-xl sm:text-center md:max-w-2xl"
+    >
+      <h2
+        class="mb-6 text-center font-sans text-3xl font-bold tracking-tight text-gray-600 drop-shadow-lg sm:text-4xl sm:leading-none"
+      >
+        Ton Expert Chauve sur Mesure
+      </h2>
+      <p
+        class="mb-8 text-center text-base text-gray-600 drop-shadow-sm md:text-lg"
+      >
+        Trouver le chauve qui vous convient dans le domaine que vous recherchez
+        !
+      </p>
+      <app-search-bar></app-search-bar>
+      <p
+        class="mb-10 max-w-md text-xs tracking-wide text-indigo-100 sm:mx-auto sm:text-sm md:mb-8"
+      ></p>
+    </div>
+  </div>
+</div>
