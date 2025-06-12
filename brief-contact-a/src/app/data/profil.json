@@ -43,7 +43,7 @@
     "id": 5,
     "nom": "Bernard Brillantine",
     "job": "Galeriste",
-    "email": "bernard.brillantine@example.com",
+    "email": "beber.brillant@example.com",
     "phone": "+33 1 23 45 67 05",
     "role": "Dôme Brillant",
     "about": "Bernard dirige sa galerie d'art contemporain avec passion. Expert en sculptures lisses et surfaces polies, il apprécie particulièrement les œuvres aux courbes parfaites !",
@@ -71,22 +71,22 @@
   },
   {
     "id": 8,
-    "nom": "Calvitie One",
-    "job": "Marketing Manager",
-    "email": "calvitie.one@example.com",
-    "phone": "+33 1 23 45 67 08",
+    "nom": "Justin Crâne",
+    "job": "Directeur d'Hôtel",
+    "email": "justin.crane@example.com",
+    "phone": "+33 1 23 45 67 09",
     "role": "Dôme Brillant",
-    "about": "💻 Après des années à faire du back-end, j'ai eu envie de lumière. Je suis passé au front, et mes cheveux ont pris ça comme un signal : ils ont fui la scène. Résultat ? Un dev chauve mais radieux.",
-    "image": "/img/chauve-10.jpeg"
+    "about": "Justin offre un service haut de gamme dans un cadre qui reflète parfaitement sa personnalité !",
+    "image": "/img/chauve-5.jpeg"
   },
   {
     "id": 9,
-    "nom": "Follicule Libre",
-    "job": "Graphic Designer",
-    "email": "follicule.libre@example.com",
-    "phone": "+33 1 23 45 67 09",
+    "nom": "Amélie Saie",
+    "job": "Infirmière",
+    "email": "amelie.saie@example.com",
+    "phone": "+33 1 23 45 67 10",
     "role": "Dôme Brillant",
-    "about": "🧠 Il paraît que les chauves réfléchissent plus vite. Je ne sais pas si c'est vrai, mais mon code transpile à la vitesse de la lumière. Et si l'élégance se mesurait en lignes de code propres, je serais mannequin.",
+    "about": "Amélie apporte toujours de la clarté dans les situations les plus complexes !",
     "image": "/img/chauve-11.jpeg"
   },
   {
@@ -101,23 +101,23 @@
   },
   {
     "id": 11,
-    "nom": "Shiny Head Sam",
-    "job": "Data Analyst",
-    "email": "sam@shinyhead.example.com",
+    "nom": "Isabeton Due",
+    "job": "Curatrice d'Art",
+    "email": "isabeton.due@example.com",
     "phone": "+33 1 23 45 67 11",
     "role": "Dôme Brillant",
-    "about": "📚 J'ai découvert ma passion pour le développement à 28 ans. À 29, j'ai découvert la calvitie. Hasard ? Non. Car c'est à ce moment-là que j'ai arrêté de me coiffer pour mieux structurer mes composants.",
+    "about": "Isabeton a adopté un style épuré dans tous les domaines de sa vie !",
     "image": "/img/chauve-13.jpeg"
   },
   {
     "id": 12,
-    "nom": "Chauve & Fier",
-    "job": "Project Manager",
-    "email": "chauve.fier@example.com",
+    "nom": "Honorée Fléchie",
+    "job": "Directrice Commerciale",
+    "email": "honoree.flechie@example.com",
     "phone": "+33 1 23 45 67 12",
     "role": "Dôme Brillant",
-    "about": "🌐 Freelance depuis 3 ans, j'aide les entreprises à concevoir des interfaces modernes et accessibles. Les cheveux sont optionnels dans ce métier. Le style, lui, ne l'est pas.",
-    "image": "/img/chauve-12.jpeg"
+    "about": "Honorée mène ses réflexions stratégiques avec un éclat particulier !",
+    "image": "/img/chauve-10.jpeg"
   },
   {
     "id": 13,
