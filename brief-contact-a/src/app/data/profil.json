@@ -41,32 +41,32 @@
   },
   {
     "id": 5,
-    "nom": "Chauve-qui-peut",
-    "job": "QA Engineer",
-    "email": "chauvequip@example.com",
+    "nom": "Bernard Brillantine",
+    "job": "Galeriste",
+    "email": "bernard.brillantine@example.com",
     "phone": "+33 1 23 45 67 05",
     "role": "Dôme Brillant",
-    "about": "🔥 Mon alopécie n'est pas une faiblesse, c'est une fonctionnalité. Elle est apparue au moment même où j'ai compris le modèle component d'Angular. Depuis, je shippe des apps lisses comme mon crâne.",
+    "about": "Bernard dirige sa galerie d'art contemporain avec passion. Expert en sculptures lisses et surfaces polies, il apprécie particulièrement les œuvres aux courbes parfaites !",
     "image": "/img/chauve-6.jpeg"
   },
   {
     "id": 6,
-    "nom": "Mr. Lisse Code",
-    "job": "Frontend Dev",
-    "email": "lisse.code@example.com",
+    "nom": "Maître Miroir",
+    "job": "Chef de Restaurant",
+    "email": "maitre.miroir@example.com",
     "phone": "+33 1 23 45 67 06",
     "role": "Dôme Brillant",
-    "about": "👨‍🏫 Ancien enseignant en informatique, j'ai troqué la craie contre des composants réactifs. J'ai peut-être perdu mes cheveux en cours de route, mais j'ai gardé ma pédagogie… et une interface utilisateur bien peaufinée.",
+    "about": "Maître Miroir dirige son établissement avec passion. Quand on lui parle, on a l'impression d'avoir une lampe de chevet à côté de soi !",
     "image": "/img/chauve-7.jpeg"
   },
   {
     "id": 7,
-    "nom": "Pattern Baldness",
-    "job": "UX Designer",
-    "email": "pattern.b@example.com",
+    "nom": "Pascal Vitie",
+    "job": "Directeur Médical",
+    "email": "pascal.vitie@example.com",
     "phone": "+33 1 23 45 67 07",
     "role": "Dôme Brillant",
-    "about": "🧴 On me demande souvent mon secret pour garder une tête aussi brillante. C'est simple : une bonne architecture logicielle, une passion pour le responsive design, et zéro shampoing depuis 2019.",
+    "about": "Pascal a une approche très transparente de la médecine !",
     "image": "/img/chauve-8.jpeg"
   },
   {
@@ -91,12 +91,12 @@
   },
   {
     "id": 10,
-    "nom": "Mr. Smooth Dome",
-    "job": "DevOps Engineer",
-    "email": "smooth.dome@example.com",
-    "phone": "+33 1 23 45 67 10",
+    "nom": "André Nudé",
+    "job": "Chef de Chantier",
+    "email": "andre.nude@example.com",
+    "phone": "+33 1 23 45 67 08",
     "role": "Dôme Brillant",
-    "about": "💼 🧩 Mon parcours est un puzzle de technologies : PHP, SQL, React, Angular... Et au milieu de tout ça, une calvitie assumée qui m'a appris à garder la tête haute, même sans rien dessus.",
+    "about": "André supervise ses chantiers avec une précision d'architecte. Son casque de sécurité n'a jamais eu autant d'espace de stockage !",
     "image": "/img/chauve-16.jpeg"
   },
   {
