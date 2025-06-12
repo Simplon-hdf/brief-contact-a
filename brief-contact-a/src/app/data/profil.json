@@ -2,42 +2,42 @@
   {
     "id": 1,
     "nom": "Calvi Max",
-    "job": "Lead Developer",
-    "email": "calvimax@example.com",
+    "job": "Coach Sportif",
+    "email": "calvi.max@example.com",
     "phone": "+33 1 23 45 67 01",
     "role": "Dôme Brillant",
-    "about": "💼 Développeur full-stack depuis bientôt 10 ans, j'ai su jongler entre le front et le back… mais pas avec mes cheveux, qui ont quitté le navire dès mes premiers bugs en production. Aujourd'hui, je compense leur absence par un code plus élégant que ma ligne capillaire.",
+    "about": "Calvi est un coach sportif passionné de fitness et musculation qui guide ses clients vers leurs objectifs avec détermination. Son secret ? Il a perdu ses cheveux mais gagné en aérodynamisme pour ses sprints !",
     "image": "/img/chauve-3.jpeg"
   },
   {
     "id": 2,
-    "nom": "Mr. Chauve Geek",
-    "job": "SysAdmin",
-    "email": "chauve.geek@example.com",
+    "nom": "Vincent Lisse",
+    "job": "Directeur Commercial",
+    "email": "vincent.lisse@example.com",
     "phone": "+33 1 23 45 67 02",
     "role": "Dôme Brillant",
-    "about": "👨‍💻 Mon parcours a commencé dans le marketing digital. Puis, un jour, j'ai découvert Angular… et j'ai découvert ma vocation (et ma calvitie, en même temps). Depuis, je construis des apps robustes, tout en assumant fièrement mon scalp aéré.",
+    "about": "Vincent est passionné par les relations humaines et le développement d'entreprise, créant des partenariats durables. Son sourire et son crâne brillent de mille feux lors des réunions !",
     "image": "/img/chauve-1.jpeg"
   },
   {
     "id": 3,
-    "nom": "Joe Kahl (Kahl = calvaire)",
-    "job": "Backend Dev",
-    "email": "joekahl@example.com",
+    "nom": "Marco Pelé",
+    "job": "Chef Cuisinier",
+    "email": "marco.pele@example.com",
     "phone": "+33 1 23 45 67 03",
     "role": "Dôme Brillant",
-    "about": "🔧 Ex-technicien réseau reconverti développeur web, j'ai décidé de me déconnecter des câbles pour me brancher à ma passion : le JavaScript. Les câbles sont peut-être partis avec mes cheveux, mais j'ai gagné en clarté… d'esprit et de crâne.",
+    "about": "Marco est un chef passionné qui excelle dans l'art culinaire depuis plus de 15 ans. Sa spécialité ? L'œuf au plat - une question d'expertise personnelle !",
     "image": "/img/chauve-2.jpeg"
   },
   {
     "id": 4,
-    "nom": "Bald Eagle",
-    "job": "Product Owner",
-    "email": "baldeagle@example.com",
+    "nom": "Patrick Poli",
+    "job": "Consultant en Stratégie",
+    "email": "patrick.poli@example.com",
     "phone": "+33 1 23 45 67 04",
     "role": "Dôme Brillant",
-    "about": "🚀 J'ai quitté la gestion de projet en 2018 pour plonger tête nue dans le code. On dit souvent qu'il faut garder la tête froide sous pression : ça tombe bien, la mienne respire librement depuis l'alopécie.",
-    "image": "/img/chauve-5.jpeg"
+    "about": "Patrick excelle dans l'art de restructurer les entreprises. Comme pour sa coiffure, il va toujours à l'essentiel !",
+    "image": "/img/chauve-4.jpeg"
   },
   {
     "id": 5,
